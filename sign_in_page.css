@@ -1,0 +1,349 @@
+body{
+    background-color: aliceblue;
+}
+marquee{
+    font-size: 20px;
+    color:blue;
+    text-decoration: underline;
+    scroll-behavior: smooth;
+    
+   
+}
+.circle1{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 750px;
+    left: 510px; 
+    background-image : linear-gradient(to bottom right, red, yellow);
+}
+.circle3{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left:50px;
+   
+    background-image : linear-gradient(to bottom right, red, yellow);
+}
+.circle4{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -10;
+    left:700px;
+    top:700px;
+    background-image : linear-gradient(to bottom right, rgb(0, 255, 4), yellow);
+    animation-name: c4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes c4{
+    0%{
+    position: absolute;
+    left:700px;
+    top:700px;
+    }
+    10%{
+        position: absolute;
+        left:800px;
+        top:500px;
+        rotate: 30deg;
+    }
+    20%{
+        position: absolute;
+        left:950px;
+        top:700px;
+        rotate:30deg;
+    }30%{
+        position: absolute;
+        left:1050px;
+        top:500px;
+        rotate:30deg;
+    }40%{
+        position: absolute;
+        left:1200px;
+        top:700px;
+        rotate:30deg;
+    }50%{
+        position: absolute;
+        left:1350px;
+        top:500px;
+        rotate:30deg;
+    }60%{
+        position: absolute;
+        left:1200px;
+        top:700px;
+        rotate:30deg;
+    }70%{
+        position: absolute;
+        left:1050px;
+        top:500px;
+        rotate:30deg;
+    }80%{
+        position: absolute;
+        left:950px;
+        top:700px;
+        rotate:30deg;
+    }90%{
+        position: absolute;
+        left:800px;
+        top:500px;
+        rotate:30deg;
+    }100%{
+        position: absolute;
+        left:700px;
+        top:700px;
+        rotate:30deg;
+    }
+}
+.rect{
+    width:100px;
+    height:40px;
+    position: absolute;
+    left:800px;
+    top:750px;
+    border-radius: 10px;
+    background-image : linear-gradient(to bottom right, rgb(0, 255, 4), yellow);
+    animation-name: rect;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#one{
+    background-color: lightcoral;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: red;
+}
+@keyframes rect{
+    0%{
+        position: absolute;
+        left:700px;
+        
+        }
+        10%{
+            position: absolute;
+            left:800px;
+            
+            
+        }
+        20%{
+            position: absolute;
+            left:950px;
+            
+            
+        }30%{
+            position: absolute;
+            left:1050px;
+            
+            
+        }40%{
+            position: absolute;
+            left:1200px;
+            
+            
+        }50%{
+            position: absolute;
+            left:1350px;
+            
+            
+        }60%{
+            position: absolute;
+            left:1200px;
+            
+            
+        }70%{
+            position: absolute;
+            left:1050px;
+            
+            
+        }80%{
+            position: absolute;
+            left:950px;
+            
+            
+        }90%{
+            position: absolute;
+            left:800px;
+            
+            
+        }100%{
+            position: absolute;
+            left:700px;
+            
+            
+        }
+}
+.star{
+    height:100px;
+    width:100px;  
+    color: red;
+    font-weight:bolder;  
+}
+
+
+.container{
+    z-index: 1000;
+}
+.heading{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    margin-left:5% ;
+    color: rgb(117, 17, 4);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+    z-index: 1000;
+}
+.boxfront{
+    /* text-align: left; */
+   
+    width:25vw;
+    background-color: white;
+    position: absolute;
+    left:100px;
+    top:50px;
+    z-index: 4;
+    border:solid white;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px #e4e2e2;
+   
+}
+
+.google{
+    text-align: center;
+    color: rgb(44, 4, 117);
+    margin-bottom: -10px;
+}
+
+
+.info{
+    font-size: large;
+}
+.info2{
+    padding-bottom: 12px;
+}
+p .forget{
+    text-align: right !important;
+
+    color: rgb(44, 4, 117);;
+}
+.forget:hover{
+    color: red;
+}
+
+.input1{
+        display: block;
+        position: relative;
+        top:50%;
+        left:50%;
+        
+        transform: translate(-50%,-10%);
+        margin: 0 auto;
+        margin-top: 10px;
+        height: 35px;
+        width: 350px;
+        border:solid rgb(141, 139, 139);
+        border-radius: 5px;
+        padding-left: 8px;
+      
+}
+.input2{
+    display: block;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-40%);
+    margin: 0 auto;
+    border:solid rgb(141, 139, 139);
+    margin-top: 10px;
+    height: 35px;
+    width: 350px;
+    padding-left: 8px;
+    border-radius: 5px;;
+  
+}
+#female, #male{
+    margin-left: 15px;
+    margin-right: 4px;
+}
+.forget{
+    display: block;
+        position: relative;
+        top:50%;
+        left:50%;
+        transform: translate(-55%,-100%);
+}
+.btn1{
+    width: 100%;
+    padding: 10px;
+    margin-left: -10px;
+    background-color: rgb(117, 17, 4);
+    border-radius:5px;
+    font-size: larger;
+}
+.btn2{
+    width: 100%;
+    padding: 10px;
+    margin-left: -10px;
+    background-color: rgb(235, 79, 58);
+    border-radius:5px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+@media (max-width:320px)
+{
+    .boxfront{
+        width:280px;
+    }
+    .boxback{
+        width:280px;
+    }
+    .input1{
+        width: 280px;
+    }
+    .input2{
+        width: 280px;
+    }
+}
+@media (min-width:321px) and (max-width:1200px)
+{
+    .boxfront{
+        width:440px;
+    }
+    .boxback{
+        width:440px;
+    }
+}
+
+@media (max-width:320px) {
+    .input1, .input2{
+        width:250px
+    }
+    .btn1{
+        width:260px   
+    }
+}
+.container{
+    transform:preserve-3d;
+    transition: all 0.5s ease;
+}
+.carosels{
+    width:1000px ;
+    height: 500px;
+    position: absolute;
+    left:600px;
+    margin-top: 20px;
+}
+img{
+    width:500px;
+    height: 500px;
+}

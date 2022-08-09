@@ -1,0 +1,42 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* .container{
+    margin:50px;
+} */
+.logo{
+    margin-left:50px;
+    margin-top: 50px;
+}
+.address{
+    color: rgb(77, 75, 75);
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 5px;
+    border-left: orange 8px solid ;
+    width:fit-content;
+    padding-left: 12px;
+    margin-left:50px;
+
+}.text1{
+margin-top: 15px ;
+ padding-top: 8px;}
+ .text3{
+    padding-bottom: 8px;
+ }
+
+
+
+ .info1{
+     margin-left: 60%;
+ }
+ 
+
+ .signature2 {
+     color:rgb(1, 1, 26);
+     font-weight: 800;
+ }
+
+ .signature3,.date2{
+    font-weight: 800;
+    color: orange;
+ }
